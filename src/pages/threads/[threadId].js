@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-curly-newline */
+/* eslint-disable implicit-arrow-linebreak */
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -99,7 +101,6 @@ function ThreadDetailPage() {
           <Title>{threadDetail.title}</Title>
 
           <Body
-            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
               __html: sanitizeHtml(threadDetail.body),
             }}

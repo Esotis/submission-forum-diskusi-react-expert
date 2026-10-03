@@ -26,9 +26,9 @@ async function fetchJson(url, options = {}) {
     response = await fetch(url, options);
   } catch (networkError) {
     throw new Error(
-      'Tidak dapat terhubung ke server. Periksa kembali data yang ' +
-        'dimasukkan (mis. email sudah terdaftar atau kata sandi terlalu ' +
-        'pendek), atau koneksi internet Anda, lalu coba lagi.',
+      'Tidak dapat terhubung ke server. Periksa kembali data yang '
+        + 'dimasukkan (mis. email sudah terdaftar atau kata sandi terlalu '
+        + 'pendek), atau koneksi internet Anda, lalu coba lagi.',
     );
   }
 

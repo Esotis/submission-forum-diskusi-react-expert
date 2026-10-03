@@ -1,4 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import {
+  describe, it, expect, vi, beforeEach,
+} from 'vitest';
 import { createAppStore } from '../store';
 import { fetchThreads, voteThread } from './threadsSlice';
 import { VOTE_TYPE } from '../voteHelper';

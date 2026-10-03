@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 import { useRef, useCallback } from 'react';
 import {
   EditorWrapper,
@@ -102,7 +103,6 @@ function RichTextEditor({
         aria-labelledby={ariaLabelledBy}
         data-placeholder={placeholder}
         onInput={handleInput}
-        // eslint-disable-next-line react/no-danger -- konten awal HTML dari server/edit sebelumnya
         dangerouslySetInnerHTML={{ __html: initialHtmlRef.current }}
       />
     </EditorWrapper>
