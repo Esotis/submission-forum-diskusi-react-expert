@@ -12,6 +12,7 @@
     "e2e": "cypress run",
     "e2e:dev": "start-server-and-test dev http://localhost:3000 cypress:open",
     "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "e2e:prod": "start-server-and-test start http://localhost:3000 cypress:run"
   },
   "dependencies": {
