@@ -15,7 +15,7 @@ describe('messageSlice reducer', () => {
   // contoh test gagal di type
   it('should set a success message on setSuccessMessage', () => {
     const nextState = messageReducer(undefined, setSuccessMessage('Berhasil!'));
-    expect(nextState).toEqual({ text: 'Berhasil!', type: 'sukses' });
+    expect(nextState).toEqual({ text: 'Berhasil!', type: 'success' });
   });
 
   it('should set an error message on setErrorMessage', () => {
