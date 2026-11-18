@@ -169,8 +169,3 @@ akses yang hanya Anda miliki:
 4. **Aktifkan branch protection rule** pada `master` di pengaturan repository GitHub.
 5. **Ambil 3 screenshot** bukti CI/CD sesuai langkah di atas.
 6. **Lampirkan URL Vercel + ketiga screenshot** pada catatan submission Dicoding Anda.
-
-Semua kode (konfigurasi Next.js, styled-components, seluruh test, workflow
-GitHub Actions, konfigurasi Cypress) sudah saya siapkan dan sudah saya
-verifikasi lolos `npm run lint`, `npm test`, dan `npm run build` di
-lingkungan saya.
